@@ -57,6 +57,24 @@ Background:
 
 
 
+    Scenario Outline: User can able to login with valid credential
+      When  user click sign_in from menu button
+      And enter <username> and <password>
+      And click sign in
+      Then user should be on account page
+
+      Examples: |username|password|
+      | alimuzzaman_408       | a123456       |
+      | alimuzzaman_409       | a1234568       |
+      | alimuzzaman_4081      | a1234560       |
+
+
+
+
+
+
+
+
 
 
 

@@ -185,4 +185,26 @@ public class Steps {
     }
 
 
+
+    @When("^user click sign_in from menu button$")
+    public void user_click_sign_in_from_menu_button() {
+
+    }
+
+    @When("^enter <username> and <password>$")
+    public void enter_username_and_password() {
+
+    }
+
+    @When("^click sign in$")
+    public void click_sign_in() {
+
+    }
+
+    @Then("^user should be on account page$")
+    public void user_should_be_on_account_page() {
+
+    }
+
+
     }

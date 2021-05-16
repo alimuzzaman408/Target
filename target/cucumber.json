@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1894631500,
+              "duration": 1120800,
               "status": "passed"
             },
             "line": 3,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-16T19:41:36.822Z",
+        "start_timestamp": "2021-05-16T21:31:54.938Z",
         "before": [
           {
             "result": {
-              "duration": 2081549200,
+              "duration": 1999000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,6 @@
         "after": [
           {
             "result": {
-              "duration": 687899100,
               "status": "passed"
             },
             "match": {
@@ -56,7 +55,6 @@
         "steps": [
           {
             "result": {
-              "duration": 3251072800,
               "status": "passed"
             },
             "line": 6,
@@ -68,7 +66,6 @@
           },
           {
             "result": {
-              "duration": 195813300,
               "status": "passed"
             },
             "line": 7,
@@ -82,6 +79,845 @@
         "tags": [
           {
             "name": "@smokeTesting"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.024Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Customer able to select cheese item from grocery categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-cheese-item-from-grocery-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Navigate to cheese page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_cheese()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Customer will be on cheese Page",
+            "match": {
+              "location": "step_definition.Steps.validate_cheese()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.038Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Customer able to select yogurt item from grocery categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-yogurt-item-from-grocery-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Navigate to yogurt page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_yogurtPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Customer will be on yogurt Page",
+            "match": {
+              "location": "step_definition.Steps.validate_yogurt()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.047Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Customer able to select coffee_creamer item from grocery categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-coffee-creamer-item-from-grocery-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Navigate to coffee_creamer page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_to_coffee_creamer_page_from_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Customer will be on coffee_creamer Page",
+            "match": {
+              "location": "step_definition.Steps.customer_will_be_on_coffee_creamer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.055Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Customer able to select Cream_cheese item from grocery categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-cream-cheese-item-from-grocery-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Navigate to Cream_cheese page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_to_cream_cheese_page_from_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Customer will be on Cream_cheese Page",
+            "match": {
+              "location": "step_definition.Steps.customer_will_be_on_cream_cheese_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.064Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Customer able to select soap item from household categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-soap-item-from-household-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Navigate to soap page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_to_soap_page_from_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Customer will be on soap Page",
+            "match": {
+              "location": "step_definition.Steps.customer_will_be_on_soap_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.071Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Customer able to select sanitizer item from household categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-sanitizer-item-from-household-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Navigate to sanitizer page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_to_sanitizer_page_from_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Customer will be on sanitizer Page",
+            "match": {
+              "location": "step_definition.Steps.customer_will_be_on_sanitizer_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.079Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Customer able to select toilet_paper item from household categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-toilet-paper-item-from-household-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Navigate to toilet_paper page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_to_toilet_paper_page_from_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Customer will be on toilet_paper Page",
+            "match": {
+              "location": "step_definition.Steps.customer_will_be_on_toilet_paper_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.089Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Customer able to select cleaning_supplies item from household categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-cleaning-supplies-item-from-household-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Navigate to cleaning_wipes page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_to_cleaning_supplies_page_from_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Customer will be on cleaning_wipes Page",
+            "match": {
+              "location": "step_definition.Steps.customer_will_be_on_cleaning_wipes_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.095Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Customer able to select floor_care item from household categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-floor-care-item-from-household-categories",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Navigate to floor_care page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigate_to_floor_care_page_from_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Customer will be on floor_care Page",
+            "match": {
+              "location": "step_definition.Steps.customer_will_be_on_floor_care_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.134Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "User can able to login with valid credential",
+        "description": "",
+        "id": "purchase-product-from-online;user-can-able-to-login-with-valid-credential;|username|password|;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61,
+            "name": "user click sign_in from menu button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "enter \u003cusername\u003e and \u003cpassword\u003e",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "click sign in",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "user should be on account page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T21:31:55.156Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "User can able to login with valid credential",
+        "description": "",
+        "id": "purchase-product-from-online;user-can-able-to-login-with-valid-credential;|username|password|;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61,
+            "name": "user click sign_in from menu button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "enter \u003cusername\u003e and \u003cpassword\u003e",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "click sign in",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "user should be on account page",
+            "match": {},
+            "keyword": "Then "
           }
         ]
       }
