@@ -6,39 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1b574da-acef-4542-adb0-31b7dc4b2b38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberReports/reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runner.TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/runner.TestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Home.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command_providers/ActOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command_providers/AssertThat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command_providers/BrowserActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command_providers/ElementActions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command_providers/ElementAssertions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/command_providers/WaitFor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/CheesePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/Cleaning_wipesPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/Coffee_Creamer_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/Cream_cheese_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/Floor_Care.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/Home.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/MilkPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/Sanitizer_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/Soap_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/Toilet_Paper_Page.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/YogurtPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definition/Hooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definition/Steps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/LoadConfigFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReadConfigFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
