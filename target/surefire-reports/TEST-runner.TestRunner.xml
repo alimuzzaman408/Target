@@ -1,269 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="185.485" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="10.851" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="14"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\alimu\IdeaProjects\Target\target\test-classes;C:\Users\alimu\IdeaProjects\Target\target\classes;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alimu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alimu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alimu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alimu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alimu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alimu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alimu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alimu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alimu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\alimu\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\alimu\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\alimu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alimu\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\alimu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\alimu\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alimu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\alimu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alimu\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\alimu\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\alimu\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\alimu\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\alimu\.m2\repository\net\masterthought\maven-cucumber-reporting\5.4.0\maven-cucumber-reporting-5.4.0.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-plugin-api\3.6.3\maven-plugin-api-3.6.3.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-model\3.6.3\maven-model-3.6.3.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-artifact\3.6.3\maven-artifact-3.6.3.jar;C:\Users\alimu\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.4\org.eclipse.sisu.plexus-0.3.4.jar;C:\Users\alimu\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\alimu\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\alimu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alimu\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.4\org.eclipse.sisu.inject-0.3.4.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\alimu\.m2\repository\org\apache\maven\plugins\maven-gpg-plugin\1.6\maven-gpg-plugin-1.6.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\alimu\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\alimu\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\alimu\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\alimu\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\alimu\.m2\repository\net\masterthought\cucumber-reporting\5.4.0\cucumber-reporting-5.4.0.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\alimu\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\alimu\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\alimu\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\alimu\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\alimu\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\alimu\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\alimu\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="14"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\alimu\AppData\Local\Temp\surefire3297147596729903807\surefirebooter4090755422415299521.jar C:\Users\alimu\AppData\Local\Temp\surefire3297147596729903807 2021-05-15T00-52-03_588-jvmRun1 surefire14104223298857137542tmp surefire_02216153838286073281tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\alimu\AppData\Local\Temp\surefire9854203096632924490\surefirebooter4605015147222351085.jar C:\Users\alimu\AppData\Local\Temp\surefire9854203096632924490 2021-05-16T04-12-55_932-jvmRun1 surefire18158993775033427753tmp surefire_010407886521219288834tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alimu\IdeaProjects\Target\target\test-classes;C:\Users\alimu\IdeaProjects\Target\target\classes;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\alimu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\alimu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\alimu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\alimu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\alimu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\alimu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\alimu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\alimu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\alimu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\alimu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\alimu\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\alimu\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\alimu\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\alimu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alimu\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\alimu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\alimu\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\alimu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\alimu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\alimu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\alimu\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\alimu\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\alimu\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\alimu\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\alimu\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\alimu\.m2\repository\net\masterthought\maven-cucumber-reporting\5.4.0\maven-cucumber-reporting-5.4.0.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-plugin-api\3.6.3\maven-plugin-api-3.6.3.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-model\3.6.3\maven-model-3.6.3.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-artifact\3.6.3\maven-artifact-3.6.3.jar;C:\Users\alimu\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.4\org.eclipse.sisu.plexus-0.3.4.jar;C:\Users\alimu\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\alimu\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\alimu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\alimu\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.4\org.eclipse.sisu.inject-0.3.4.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\alimu\.m2\repository\org\apache\maven\plugins\maven-gpg-plugin\1.6\maven-gpg-plugin-1.6.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\alimu\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\alimu\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\alimu\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\alimu\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\alimu\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\alimu\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\alimu\.m2\repository\net\masterthought\cucumber-reporting\5.4.0\cucumber-reporting-5.4.0.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\alimu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\alimu\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\alimu\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\alimu\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\alimu\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\alimu\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\alimu\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\alimu\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\alimu"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2020-04-14"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\alimu\IdeaProjects\Target"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alimu\AppData\Local\Temp\surefire3297147596729903807\surefirebooter4090755422415299521.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\alimu\AppData\Local\Temp\surefire9854203096632924490\surefirebooter4605015147222351085.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
     <property name="user.name" value="alimu"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
     <property name="localRepository" value="C:\Users\alimu\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\alimu\AppData\Local\Temp\"/>
-    <property name="java.version" value="14.0.1"/>
+    <property name="java.version" value="11.0.11"/>
     <property name="user.dir" value="C:\Users\alimu\IdeaProjects\Target"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Android\Android Studio\bin;C:\Users\alimu\AppData\Local\Android\Sdk\platform-tools;C:\Users\alimu\AppData\Local\Android\Sdk\tools;C:\Users\alimu\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\Java\jdk-14.0.1\lib;C:\Program Files\Git\cmd;C:\allure-2.13.8\bin;C:\apache-maven-3.3.9\bin;C:\apache-maven-3.3.9\lib;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\alimu\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.11\lib\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Android\Android Studio\bin;C:\Users\alimu\AppData\Local\Android\Sdk\platform-tools;C:\Users\alimu\AppData\Local\Android\Sdk\tools;C:\Users\alimu\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\Java\jdk-11.0.11\lib;C:\Program Files\Git\cmd;C:\allure-2.13.8\bin;C:\apache-maven-3.3.9\bin;C:\apache-maven-3.3.9\lib;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\alimu\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="58.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Customer able to select milk item from grocery categories" classname="Purchase product from online" time="19.514">
+  <testcase name="Customer able to select milk item from grocery categories" classname="Purchase product from online" time="9.072">
     <system-out><![CDATA[
-Scenario: Customer able to select milk item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:3&amp#27;[0m
-00:52:11.613 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                   &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:52:18.272 [main] INFO  page_objects.Home - categories item clicked
-00:52:19.129 [main] INFO  page_objects.Home - Grocery item clicked
-00:52:19.834 [main] INFO  page_objects.Home - Dairy item clicked
-00:52:20.482 [main] INFO  page_objects.Home - Milk item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to milk page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigateMilkPage()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on Milk Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.validate_milkPage()&amp#27;[0m
-00:52:27.006 [main] INFO  step_definition.Hooks - Close Chrome Browser
+@smokeTesting
+Scenario: Customer able to select milk item from grocery categories # src/test/resources/Features/Home.feature:5
+04:12:59.900 [main] INFO  step_definition.Hooks - Launch Chrome Browser
+  Given Customer on the home page                                   # step_definition.Steps.navigateToHomePage()
+04:13:02.851 [main] INFO  page_objects.Home - categories item clicked
+04:13:03.494 [main] INFO  page_objects.Home - Grocery item clicked
+04:13:04.097 [main] INFO  page_objects.Home - Dairy item clicked
+04:13:04.763 [main] INFO  page_objects.Home - Milk item clicked
+  When Navigate to milk page from categories                        # step_definition.Steps.navigateMilkPage()
+04:13:06.014 [main] INFO  page_objects.MilkPage - Page is validated
+  Then Customer will be on Milk Page                                # step_definition.Steps.validate_milkPage()
+04:13:06.657 [main] INFO  step_definition.Hooks - Close Chrome Browser
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28314
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 33133
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 15, 2021 12:52:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select cheese item from grocery categories" classname="Purchase product from online" time="16.332">
-    <system-out><![CDATA[
-Scenario: Customer able to select cheese item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:10&amp#27;[0m
-00:52:28.612 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                     &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:52:36.006 [main] INFO  page_objects.Home - categories item clicked
-00:52:36.867 [main] INFO  page_objects.Home - Grocery item clicked
-00:52:37.495 [main] INFO  page_objects.Home - Dairy item clicked
-00:52:38.369 [main] INFO  page_objects.Home - Cheese item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to cheese page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_cheese()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on cheese Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.validate_cheese()&amp#27;[0m
-00:52:43.434 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29376
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:52:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select yogurt item from grocery categories" classname="Purchase product from online" time="17.744">
-    <system-out><![CDATA[
-Scenario: Customer able to select yogurt item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:17&amp#27;[0m
-00:52:44.816 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                     &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:52:52.418 [main] INFO  page_objects.Home - categories item clicked
-00:52:53.215 [main] INFO  page_objects.Home - Grocery item clicked
-00:52:53.957 [main] INFO  page_objects.Home - Dairy item clicked
-00:52:54.806 [main] INFO  page_objects.Home - Yogurt item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to yogurt page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_yogurtPage()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on yogurt Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.validate_yogurt()&amp#27;[0m
-00:53:01.193 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 11638
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:52:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select coffee_creamer item from grocery categories" classname="Purchase product from online" time="15.539">
-    <system-out><![CDATA[
-Scenario: Customer able to select coffee_creamer item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:23&amp#27;[0m
-00:53:02.530 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                             &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:53:09.562 [main] INFO  page_objects.Home - categories item clicked
-00:53:10.387 [main] INFO  page_objects.Home - Grocery item clicked
-00:53:11.090 [main] INFO  page_objects.Home - Dairy item clicked
-00:53:12.034 [main] INFO  page_objects.Home - Yogurt item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to coffee_creamer page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_to_coffee_creamer_page_from_categories()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on coffee_creamer Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.customer_will_be_on_coffee_creamer_page()&amp#27;[0m
-00:53:16.662 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13782
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:53:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select Cream_cheese item from grocery categories" classname="Purchase product from online" time="15.445">
-    <system-out><![CDATA[
-Scenario: Customer able to select Cream_cheese item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:30&amp#27;[0m
-00:53:18.241 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                           &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:53:25.925 [main] INFO  page_objects.Home - categories item clicked
-00:53:26.732 [main] INFO  page_objects.Home - Grocery item clicked
-00:53:27.458 [main] INFO  page_objects.Home - Dairy item clicked
-00:53:28.128 [main] INFO  page_objects.Home - cream_cheese item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to Cream_cheese page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_to_cream_cheese_page_from_categories()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on Cream_cheese Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.customer_will_be_on_cream_cheese_page()&amp#27;[0m
-00:53:32.101 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13610
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:53:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select soap item from grocery categories" classname="Purchase product from online" time="14.668">
-    <system-out><![CDATA[
-Scenario: Customer able to select soap item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:35&amp#27;[0m
-00:53:33.697 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                   &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:53:39.745 [main] INFO  page_objects.Home - categories item clicked
-00:53:40.397 [main] INFO  page_objects.Home - household item clicked
-00:53:41.054 [main] INFO  page_objects.Home - Hand_soap_sanitizer_item_clicked
-00:53:41.898 [main] INFO  page_objects.Home - Soap_item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to soap page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_to_soap_page_from_categories()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on soap Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.customer_will_be_on_soap_page()&amp#27;[0m
-00:53:46.789 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 2301
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:53:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select sanitizer item from grocery categories" classname="Purchase product from online" time="16.639">
-    <system-out><![CDATA[
-Scenario: Customer able to select sanitizer item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:43&amp#27;[0m
-00:53:48.380 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                        &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:53:56.298 [main] INFO  page_objects.Home - categories item clicked
-00:53:57.075 [main] INFO  page_objects.Home - household item clicked
-00:53:57.759 [main] INFO  page_objects.Home - Hand_soap_sanitizer_item_clicked
-00:53:58.581 [main] INFO  page_objects.Home - Sanitizer_item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to sanitizer page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_to_sanitizer_page_from_categories()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on sanitizer Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.customer_will_be_on_sanitizer_page()&amp#27;[0m
-00:54:03.457 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 2305
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:53:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select toilet_paper item from grocery categories" classname="Purchase product from online" time="19.14">
-    <system-out><![CDATA[
-Scenario: Customer able to select toilet_paper item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:48&amp#27;[0m
-00:54:04.894 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                           &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:54:15.912 [main] INFO  page_objects.Home - categories item clicked
-00:54:16.693 [main] INFO  page_objects.Home - household item clicked
-00:54:17.622 [main] INFO  page_objects.Home - toilet_paper_item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to toilet_paper page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_to_toilet_paper_page_from_categories()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on toilet_paper Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.customer_will_be_on_toilet_paper_page()&amp#27;[0m
-00:54:22.544 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 25691
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:54:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select cleaning_supplies item from grocery categories" classname="Purchase product from online" time="18.262">
-    <system-out><![CDATA[
-Scenario: Customer able to select cleaning_supplies item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:55&amp#27;[0m
-00:54:24.157 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                                &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:54:32.773 [main] INFO  page_objects.Home - categories item clicked
-00:54:33.574 [main] INFO  page_objects.Home - household item clicked
-00:54:34.341 [main] INFO  page_objects.Home - Cleaning_supplies_item clicked
-00:54:35.206 [main] INFO  page_objects.Home - Cleaning_wipes_item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to cleaning_supplies page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_to_cleaning_supplies_page_from_categories()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on cleaning_supplies Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.customer_will_be_on_cleaning_supplies_page()&amp#27;[0m
-00:54:40.902 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 16986
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:54:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Customer able to select floor_care item from grocery categories" classname="Purchase product from online" time="28.637">
-    <system-out><![CDATA[
-Scenario: Customer able to select floor_care item from grocery categories &amp#27;[90m# src/test/resources/Features/Home.feature:61&amp#27;[0m
-00:54:42.133 [main] INFO  step_definition.Hooks - Launch Chrome Browser
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mCustomer on the home page&amp#27;[0m                                         &amp#27;[90m# step_definition.Steps.navigateToHomePage()&amp#27;[0m
-00:54:50.408 [main] INFO  page_objects.Home - categories item clicked
-00:54:51.100 [main] INFO  page_objects.Home - household item clicked
-00:54:51.800 [main] INFO  page_objects.Home - Cleaning_supplies_item clicked
-00:54:52.577 [main] INFO  page_objects.Home -   floor_care_item clicked
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mNavigate to floor_care page from categories&amp#27;[0m                        &amp#27;[90m# step_definition.Steps.navigate_to_floor_care_page_from_categories()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mCustomer will be on floor_care Page&amp#27;[0m                                &amp#27;[90m# step_definition.Steps.customer_will_be_on_floor_care_page()&amp#27;[0m
-00:55:09.456 [main] INFO  step_definition.Hooks - Close Chrome Browser
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 43802
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 15, 2021 12:54:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 16, 2021 4:12:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
