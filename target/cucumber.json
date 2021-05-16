@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1894631500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Customer on the home page",
+            "match": {
+              "location": "step_definition.Steps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-16T19:41:36.822Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2081549200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Customer able to select milk item from grocery categories",
+        "description": "",
+        "id": "purchase-product-from-online;customer-able-to-select-milk-item-from-grocery-categories",
+        "after": [
+          {
+            "result": {
+              "duration": 687899100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3251072800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to milk page from categories",
+            "match": {
+              "location": "step_definition.Steps.navigateMilkPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195813300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer will be on Milk Page",
+            "match": {
+              "location": "step_definition.Steps.validate_milkPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase product from online",
+    "description": "",
+    "id": "purchase-product-from-online",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Home.feature",
+    "tags": []
+  }
+]

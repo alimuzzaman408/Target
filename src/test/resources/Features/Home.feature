@@ -1,7 +1,7 @@
 Feature:Purchase product from online
 Background:
   Given Customer on the home page
-
+  @smokeTesting
   Scenario: Customer able to select milk item from grocery categories
     When Navigate to milk page from categories
     Then Customer will be on Milk Page
