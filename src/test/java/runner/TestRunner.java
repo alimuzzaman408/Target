@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
   glue = "step_definition",
   plugin = {"pretty","summary","html:target/CucumberReports/reports.html"},
   publish = true
- // tags = "@smokeTesting"
+  //tags = "@smokeTesting"
 )
 public class TestRunner {
 }

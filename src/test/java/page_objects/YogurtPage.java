@@ -10,7 +10,8 @@ private static final By yogurt_text=By.xpath("//*[@id='mainContainer']//h1");
     public WebDriver driver;
 
     public YogurtPage(WebDriver driver){
-       this.driver=driver;
+
+        this.driver=driver;
     }
 
     public YogurtPage verify_yogurtPage(){

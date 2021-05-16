@@ -143,7 +143,7 @@ public class Steps {
 
     }
 
-    @When("^Navigate to cleaning_supplies page from categories$")
+    @When("^Navigate to cleaning_wipes page from categories$")
     public void navigate_to_cleaning_supplies_page_from_categories() throws InterruptedException {
         new Home(driver)
                 .click_Categories()
@@ -153,10 +153,14 @@ public class Steps {
 
     }
 
-    @Then("^Customer will be on cleaning_supplies Page$")
-    public void customer_will_be_on_cleaning_supplies_page() {
-        new Home(driver)
-                .validate_Page();
+    @Then("^Customer will be on cleaning_wipes Page$")
+    public void customer_will_be_on_cleaning_wipes_page() {
+        new Cleaning_wipesPage(driver)
+                .validate_page();
+
+
+
+
 
 
     }
@@ -173,9 +177,10 @@ public class Steps {
 
     @Then("^Customer will be on floor_care Page$")
     public void customer_will_be_on_floor_care_page() throws InterruptedException {
-       new Home(driver)
-               .validate_Page();
-       new Floor_Care(driver).click_check_box();
+
+       new Floor_Care(driver)
+               .validate_page()
+               .click_check_box();
 
     }
 
