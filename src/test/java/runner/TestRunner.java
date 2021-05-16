@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
   features = "src/test/resources/Features",
   glue = "step_definition",
-  plugin = {"pretty","summary","html:target/CucumberReports/reports.html"},
+  //plugin = {"pretty","summary","html:target/CucumberReports/reports.html"},
+plugin = {"pretty","summary", "json:target/cucumber.json"},
   publish = true, monochrome = true, dryRun = false
   //tags = "@smokeTesting"
 )
