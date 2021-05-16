@@ -7,9 +7,12 @@
     <list default="true" id="b1b574da-acef-4542-adb0-31b7dc4b2b38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definition/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definition/Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Home.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CucumberReports/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/CucumberReports/reports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/Home.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
