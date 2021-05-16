@@ -30,6 +30,7 @@ public class Home {
     private static final Logger LOGGER = LogManager.getLogger(Home.class);
     WebDriver driver;
     public Home(WebDriver driver){
+
         this.driver=driver;
     }
     public Home click_Categories() throws InterruptedException {

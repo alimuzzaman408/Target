@@ -1,0 +1,69 @@
+2021-05-16 03:19:58.823 [main][4274] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:20:02.137 [main][7588] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:20:02.856 [main][8307] INFO  page_objects.Home - Grocery item clicked
+2021-05-16 03:20:03.453 [main][8904] INFO  page_objects.Home - Dairy item clicked
+2021-05-16 03:20:04.099 [main][9550] INFO  page_objects.Home - Milk item clicked
+2021-05-16 03:20:05.293 [main][10744] INFO  page_objects.MilkPage - Page is validated
+2021-05-16 03:20:05.972 [main][11423] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:20:07.158 [main][12609] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:20:10.356 [main][15807] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:20:10.997 [main][16448] INFO  page_objects.Home - Grocery item clicked
+2021-05-16 03:20:11.582 [main][17033] INFO  page_objects.Home - Dairy item clicked
+2021-05-16 03:20:12.237 [main][17688] INFO  page_objects.Home - Cheese item clicked
+2021-05-16 03:20:13.470 [main][18921] INFO  page_objects.CheesePage - Page is validated
+2021-05-16 03:20:14.143 [main][19594] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:20:15.242 [main][20693] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:20:18.498 [main][23949] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:20:19.184 [main][24635] INFO  page_objects.Home - Grocery item clicked
+2021-05-16 03:20:19.777 [main][25228] INFO  page_objects.Home - Dairy item clicked
+2021-05-16 03:20:20.454 [main][25905] INFO  page_objects.Home - Yogurt item clicked
+2021-05-16 03:20:21.922 [main][27373] INFO  page_objects.Sanitizer_Page - Page is validated
+2021-05-16 03:20:22.660 [main][28111] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:20:23.880 [main][29331] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:20:27.660 [main][33111] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:20:28.318 [main][33769] INFO  page_objects.Home - Grocery item clicked
+2021-05-16 03:20:28.912 [main][34363] INFO  page_objects.Home - Dairy item clicked
+2021-05-16 03:20:29.573 [main][35024] INFO  page_objects.Home - Yogurt item clicked
+2021-05-16 03:20:31.005 [main][36456] INFO  page_objects.Coffee_Creamer_Page - Page is validated
+2021-05-16 03:20:31.721 [main][37172] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:20:32.827 [main][38278] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:20:36.716 [main][42167] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:20:37.395 [main][42846] INFO  page_objects.Home - Grocery item clicked
+2021-05-16 03:20:37.995 [main][43446] INFO  page_objects.Home - Dairy item clicked
+2021-05-16 03:20:38.666 [main][44117] INFO  page_objects.Home - cream_cheese item clicked
+2021-05-16 03:20:40.130 [main][45581] INFO  page_objects.Cream_cheese_Page - Page is validated
+2021-05-16 03:20:40.904 [main][46355] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:20:42.037 [main][47488] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:20:45.046 [main][50497] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:20:45.685 [main][51136] INFO  page_objects.Home - household item clicked
+2021-05-16 03:20:46.278 [main][51729] INFO  page_objects.Home - Hand_soap_sanitizer_item_clicked
+2021-05-16 03:20:46.906 [main][52357] INFO  page_objects.Home - Soap_item clicked
+2021-05-16 03:20:49.780 [main][55231] INFO  page_objects.Sanitizer_Page - Page is validated
+2021-05-16 03:20:50.471 [main][55922] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:20:51.596 [main][57047] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:20:54.829 [main][60280] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:20:55.475 [main][60926] INFO  page_objects.Home - household item clicked
+2021-05-16 03:20:56.062 [main][61513] INFO  page_objects.Home - Hand_soap_sanitizer_item_clicked
+2021-05-16 03:20:56.732 [main][62183] INFO  page_objects.Home - Sanitizer_item clicked
+2021-05-16 03:20:58.793 [main][64244] INFO  page_objects.Sanitizer_Page - Page is validated
+2021-05-16 03:21:00.166 [main][65617] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:21:01.288 [main][66739] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:21:04.420 [main][69871] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:21:05.056 [main][70507] INFO  page_objects.Home - household item clicked
+2021-05-16 03:21:05.698 [main][71149] INFO  page_objects.Home - toilet_paper_item clicked
+2021-05-16 03:21:08.770 [main][74221] INFO  page_objects.Sanitizer_Page - Page is validated
+2021-05-16 03:21:10.043 [main][75494] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:21:11.188 [main][76639] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:21:14.878 [main][80329] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:21:15.507 [main][80958] INFO  page_objects.Home - household item clicked
+2021-05-16 03:21:16.107 [main][81558] INFO  page_objects.Home - Cleaning_supplies_item clicked
+2021-05-16 03:21:16.785 [main][82236] INFO  page_objects.Home - Cleaning_wipes_item clicked
+2021-05-16 03:21:19.495 [main][84946] INFO  page_objects.Cleaning_wipesPage - Page is validated
+2021-05-16 03:21:20.204 [main][85655] INFO  step_definition.Hooks - Close Chrome Browser
+2021-05-16 03:21:21.297 [main][86748] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 03:21:24.936 [main][90387] INFO  page_objects.Home - categories item clicked
+2021-05-16 03:21:25.562 [main][91013] INFO  page_objects.Home - household item clicked
+2021-05-16 03:21:26.152 [main][91603] INFO  page_objects.Home - Cleaning_supplies_item clicked
+2021-05-16 03:21:26.795 [main][92246] INFO  page_objects.Home -   floor_care_item clicked
+2021-05-16 03:21:29.465 [main][94916] INFO  page_objects.Floor_Care - Page is validated
+2021-05-16 03:21:31.296 [main][96747] INFO  step_definition.Hooks - Close Chrome Browser

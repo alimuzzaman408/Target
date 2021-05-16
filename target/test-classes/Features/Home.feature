@@ -45,7 +45,7 @@ Background:
     Then Customer will be on toilet_paper Page
 
 
-@smokeTesting
+
   Scenario: Customer able to select cleaning_supplies item from household categories
     When Navigate to cleaning_wipes page from categories
     Then Customer will be on cleaning_wipes Page
