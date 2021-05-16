@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
   features = "src/test/resources/Features",
   glue = "step_definition",
   plugin = {"pretty","summary","html:target/CucumberReports/reports.html"},
-  publish = true,
-  tags = "@smokeTesting"
+  publish = true
+ // tags = "@smokeTesting"
 )
 public class TestRunner {
 }
