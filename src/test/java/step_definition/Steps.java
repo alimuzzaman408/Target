@@ -14,7 +14,7 @@ public class Steps {
      WebDriver driver=Hooks.driver;
     @Given("^Customer on the home page$")
     public void navigateToHomePage() {
-        ActOn.browser(driver).openBrowser(ReadConfigFiles.getPropertyValues("url"));
+       ActOn.browser(driver).openBrowser(ReadConfigFiles.getPropertyValues("url"));
 
     }
 
@@ -187,22 +187,33 @@ public class Steps {
 
 
     @When("^user click sign_in from menu button$")
-    public void user_click_sign_in_from_menu_button() {
+    public void user_click_sign_in_from_menu_button() throws InterruptedException {
+
+       new Login_page(driver)
+                .click_signIn_from_list();
 
     }
 
-    @When("^enter <username> and <password>$")
-    public void enter_username_and_password() {
+    @When("user enters {string} and password {string}")
+    public void user_enters_and_password(String user, String password) throws InterruptedException {
+        new Login_page(driver)
+                .set_username(user)
+                .set_password(password);
+
 
     }
 
     @When("^click sign in$")
-    public void click_sign_in() {
+    public void click_sign_in() throws InterruptedException {
+        new Login_page(driver)
+        .click_sign_in() ;
 
     }
 
     @Then("^user should be on account page$")
     public void user_should_be_on_account_page() {
+        new Login_page(driver).validate_account_page();
+
 
     }
 

@@ -1,0 +1,2 @@
+2021-05-16 20:01:55.116 [main][3577] INFO  step_definition.Hooks - Launch Chrome Browser
+2021-05-16 20:02:07.043 [main][15504] INFO  step_definition.Hooks - Close Chrome Browser

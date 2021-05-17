@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 14.961 s <<< FAILURE! - in runner.TestRunner
+Purchase product from online.User can able to login with valid credential #1  Time elapsed: 7.07 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [^enter <username> and <password>$] is defined with 2 parameters at 'step_definition.Steps.enter_username_and_password(java.lang.String,java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: enter <username> and <password>
+
+Purchase product from online.User can able to login with valid credential #2  Time elapsed: 5.741 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [^enter <username> and <password>$] is defined with 2 parameters at 'step_definition.Steps.enter_username_and_password(java.lang.String,java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: enter <username> and <password>
+

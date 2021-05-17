@@ -15,7 +15,7 @@ public class ElementAssertions {
     }
 
     public ElementAssertions elementExist() {
-        Boolean element  = driver.findElement(locator).isDisplayed() ;
+        Boolean element  = driver.findElement((locator)).isDisplayed() ;
         Assert.assertTrue("The expected element does not exist", element);
         return this;
     }

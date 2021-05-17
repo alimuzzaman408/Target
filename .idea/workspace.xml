@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b574da-acef-4542-adb0-31b7dc4b2b38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/page_objects/Login_page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/command_providers/ElementAssertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/command_providers/ElementAssertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_objects/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_objects/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/step_definition/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definition/Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Home.feature" afterDir="false" />
@@ -61,7 +65,15 @@
       <recent name="page_objects" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="All in Target" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Target" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Target" />
       <extension name="coverage">
@@ -80,6 +92,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.All in Target" />
       </list>
     </recent_temporary>
   </component>

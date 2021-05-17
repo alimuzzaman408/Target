@@ -8,23 +8,22 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Home {
-    private static final By Categories= By.xpath("//span[normalize-space()='Categories']");
+    private static final By Categories = By.xpath("//span[normalize-space()='Categories']");
     private final By Grocery = By.xpath("//li[@class='NavigationListItem-ljyubl-0 chzHFE']/following::div[text()='Grocery']");
-    private final By Dairy=By.xpath("//li[@class='NavigationListItem__BucketListItem-ljyubl-2 gzcTqr']/following::div[text()='Dairy']");
-    private final By Milk_item=By.xpath("//div[normalize-space()='Milk']");
-    private final By cheese_item=By.xpath(" //div[normalize-space()='Cheese']");
-    private final By yogurt_item=By.xpath("  //div[normalize-space()='Yogurt']");
-    private final By coffee_creamer_item=By.xpath("//div[normalize-space()='Coffee Creamers']");
-    private final By cream_cheese_item=By.xpath("//div[normalize-space()='Cream Cheese']");
-    private final By house_hold_item=By.xpath("//div[@class='Row-uds8za-0 glDPjN'][normalize-space()='Household Essentials']");
-    private final By Hand_soap_sanitizer_item=By.xpath("//div[normalize-space()='Hand Soap & Sanitizers']");
-    private final By hand_soap_item=By.xpath("//div[normalize-space()='Hand Soap']");
-    private final By sanitizer_item=By.xpath(" //div[normalize-space()='Hand Sanitizer']");
-    private final By toilet_paper_item=By.xpath("//div[normalize-space()='Toilet Paper']");
-    private final By Cleaning_supplies_item=By.xpath("//div[normalize-space()='Cleaning Supplies']");
-    private final By Cleaning_wipes_item=By.xpath("//div[normalize-space()='Cleaning Wipes']");
-    private final By floor_care_item=By.xpath("//div[normalize-space()='Floor Care']");
-
+    private final By Dairy = By.xpath("//li[@class='NavigationListItem__BucketListItem-ljyubl-2 gzcTqr']/following::div[text()='Dairy']");
+    private final By Milk_item = By.xpath("//div[normalize-space()='Milk']");
+    private final By cheese_item = By.xpath(" //div[normalize-space()='Cheese']");
+    private final By yogurt_item = By.xpath("  //div[normalize-space()='Yogurt']");
+    private final By coffee_creamer_item = By.xpath("//div[normalize-space()='Coffee Creamers']");
+    private final By cream_cheese_item = By.xpath("//div[normalize-space()='Cream Cheese']");
+    private final By house_hold_item = By.xpath("//div[@class='Row-uds8za-0 glDPjN'][normalize-space()='Household Essentials']");
+    private final By Hand_soap_sanitizer_item = By.xpath("//div[normalize-space()='Hand Soap & Sanitizers']");
+    private final By hand_soap_item = By.xpath("//div[normalize-space()='Hand Soap']");
+    private final By sanitizer_item = By.xpath(" //div[normalize-space()='Hand Sanitizer']");
+    private final By toilet_paper_item = By.xpath("//div[normalize-space()='Toilet Paper']");
+    private final By Cleaning_supplies_item = By.xpath("//div[normalize-space()='Cleaning Supplies']");
+    private final By Cleaning_wipes_item = By.xpath("//div[normalize-space()='Cleaning Wipes']");
+    private final By floor_care_item = By.xpath("//div[normalize-space()='Floor Care']");
 
 
     private static final Logger LOGGER = LogManager.getLogger(Home.class);
@@ -151,8 +150,4 @@ public class Home {
 
 
 
-
-
-
-
-}
+    }

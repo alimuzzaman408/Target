@@ -1,7 +1,7 @@
 Feature:Purchase product from online
 Background:
   Given Customer on the home page
-  @smokeTesting
+
   Scenario: Customer able to select milk item from grocery categories
     When Navigate to milk page from categories
     Then Customer will be on Milk Page
@@ -56,17 +56,17 @@ Background:
     Then Customer will be on floor_care Page
 
 
-
+  @smokeTesting
     Scenario Outline: User can able to login with valid credential
       When  user click sign_in from menu button
-      And enter <username> and <password>
+      And user enters "<username>" and password "<password>"
       And click sign in
       Then user should be on account page
 
-      Examples: |username|password|
-      | alimuzzaman_408       | a123456       |
-      | alimuzzaman_409       | a1234568       |
-      | alimuzzaman_4081      | a1234560       |
+      Examples:
+      |username|password|
+      | alimuzzaman408@yahoo.com| a123456|
+
 
 
 
