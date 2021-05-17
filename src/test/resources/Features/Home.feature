@@ -56,8 +56,8 @@ Background:
     Then Customer will be on floor_care Page
 
 
-  @smokeTesting
-    Scenario Outline: User can able to login with valid credential
+  @NegativeTesting
+    Scenario Outline: User can able to login with invalid credential
       When  user click sign_in from menu button
       And user enters "<username>" and password "<password>"
       And click sign in
