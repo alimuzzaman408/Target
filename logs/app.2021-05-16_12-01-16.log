@@ -1,6 +1,0 @@
-2021-05-16 00:01:18.777 [main][3319] INFO  step_definition.Hooks - Launch Chrome Browser
-2021-05-16 00:01:23.615 [main][8157] INFO  page_objects.Home - categories item clicked
-2021-05-16 00:01:24.237 [main][8779] INFO  page_objects.Home - Grocery item clicked
-2021-05-16 00:01:24.789 [main][9331] INFO  page_objects.Home - Dairy item clicked
-2021-05-16 00:01:25.385 [main][9927] INFO  page_objects.Home - Milk item clicked
-2021-05-16 00:01:27.214 [main][11756] INFO  step_definition.Hooks - Close Chrome Browser
