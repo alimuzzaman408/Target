@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
   glue = "step_definition",
   //plugin = {"pretty","summary","html:target/CucumberReports/reports.html"},
   plugin = {"pretty","summary", "json:target/cucumber.json","html:target/CucumberReports/reports.html"},
-  publish = true, monochrome = true, dryRun = false,
-  tags = "@NegativeTesting"
+  publish = true, monochrome = false, dryRun = false,
+  tags = "@smokeTesting or @sanityTesting or @NegativeTesting"
 )
 public class TestRunner {
 }

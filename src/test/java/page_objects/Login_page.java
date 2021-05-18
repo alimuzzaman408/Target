@@ -62,8 +62,12 @@ public class Login_page {
         String value1 = ActOn.element(driver, error_message1).getTextValue();
          //String value2 = ActOn.element(driver, error_message2).getTextValue();
         if (value1.equals("Please enter a valid password")) {
+
             LOGGER.info("Test is passed");
 
+        }else
+        {
+            LOGGER.info("Test is failed");
 
         }
 
