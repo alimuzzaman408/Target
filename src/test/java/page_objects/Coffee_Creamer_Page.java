@@ -1,8 +1,10 @@
 package page_objects;
 
+import command_providers.ActOn;
 import command_providers.AssertThat;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -18,8 +20,9 @@ private static final By coffee_text=By.xpath("//*[@id='mainContainer']//h1");
     }
 
     public Coffee_Creamer_Page verify_coffee_creamerPage(){
-        AssertThat.elementAssertions(driver,coffee_text).elementExist();
-        LOGGER.info("Page is validated");
+        String value= ActOn.element(driver,coffee_text).getTextValue();
+        Assert.assertEquals("Coffee Creamers",value);
+        LOGGER.info("Page is verified with correct text_value");
         return this;
 
     }

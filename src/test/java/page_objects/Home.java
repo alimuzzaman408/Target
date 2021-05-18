@@ -56,7 +56,7 @@ public class Home {
     public Home clickMilk() throws InterruptedException {
         ActOn.element(driver,Milk_item).click();
         LOGGER.info("Milk item clicked");
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         return this;
     }
 

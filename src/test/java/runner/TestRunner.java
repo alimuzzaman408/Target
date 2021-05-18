@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
   //plugin = {"pretty","summary","html:target/CucumberReports/reports.html"},
   plugin = {"pretty","summary", "json:target/cucumber.json","html:target/CucumberReports/reports.html"},
   publish = true, monochrome = false, dryRun = false,
-  tags = "@smokeTesting or @sanityTesting or @NegativeTesting"
+   tags = "@smokeTesting or @sanityTesting or @NegativeTesting or @Testing"
+
 )
 public class TestRunner {
 }

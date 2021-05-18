@@ -1,8 +1,10 @@
 package page_objects;
 
+import command_providers.ActOn;
 import command_providers.AssertThat;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -18,8 +20,9 @@ private static final By wipes_text=By.xpath("//*[@id='mainContainer']//h1");
     }
 
     public Cleaning_wipesPage validate_page(){
-        AssertThat.elementAssertions(driver,wipes_text).elementExist();
-        LOGGER.info("Page is validated");
+        String value= ActOn.element(driver,wipes_text).getTextValue();
+        Assert.assertEquals("Cleaning Wipes",value);
+        LOGGER.info("Page is verified with correct text_value");
         return this;
     }
 
