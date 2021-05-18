@@ -8,14 +8,13 @@ import org.openqa.selenium.WebDriver;
 import page_objects.*;
 import utilities.ReadConfigFiles;
 
-
 public class Steps {
 
      WebDriver driver=Hooks.driver;
+
     @Given("^Customer on the home page$")
     public void navigateToHomePage() {
        ActOn.browser(driver).openBrowser(ReadConfigFiles.getPropertyValues("url"));
-
     }
 
     @When("^Navigate to milk page from categories$")
@@ -26,28 +25,25 @@ public class Steps {
                 .clickDairy()
                 .clickMilk();
     }
+
     @Then("^Customer will be on Milk Page$")
     public void validate_milkPage() {
-
         new MilkPage(driver).verify_milkPage();
     }
 
-
     @When("^Navigate to cheese page from categories$")
     public void navigate_cheese() throws InterruptedException {
-
         new Home(driver)
                 .click_Categories()
                 .clickGrocery()
                 .clickDairy()
                 .clickCheese();
     }
+
     @Then("^Customer will be on cheese Page$")
     public void validate_cheese() {
-
         new CheesePage(driver).verify_cheesePage();
-        }
-
+    }
 
     @When("^Navigate to yogurt page from categories$")
     public void navigate_yogurtPage() throws InterruptedException {
@@ -65,7 +61,6 @@ public class Steps {
 
    @When("^Navigate to coffee_creamer page from categories$")
     public void navigate_to_coffee_creamer_page_from_categories() throws InterruptedException {
-
         new Home(driver)
                 .click_Categories()
                 .clickGrocery()
@@ -81,7 +76,6 @@ public class Steps {
 
     @When("^Navigate to Cream_cheese page from categories$")
     public void navigate_to_cream_cheese_page_from_categories() throws InterruptedException {
-
         new Home(driver)
                 .click_Categories()
                 .clickGrocery()
@@ -108,7 +102,6 @@ public class Steps {
     public void customer_will_be_on_soap_page() {
         new Soap_Page(driver)
                 .verify_soap_Page();
-
     }
 
     @When("^Navigate to sanitizer page from categories$")
@@ -124,7 +117,6 @@ public class Steps {
     public void customer_will_be_on_sanitizer_page() {
         new Sanitizer_Page(driver)
                 .verify_sanitizer_Page();
-
     }
 
    @When("^Navigate to toilet_paper page from categories$")
@@ -133,14 +125,12 @@ public class Steps {
                 .click_Categories()
                 .click_house_hold()
                 .click_toilet_paper();
-
     }
 
     @Then("^Customer will be on toilet_paper Page$")
     public void customer_will_be_on_toilet_paper_page() {
         new Toilet_Paper_Page(driver)
                 .verify_toilet_paper_Page();
-
     }
 
     @When("^Navigate to cleaning_wipes page from categories$")
@@ -150,19 +140,12 @@ public class Steps {
                 .click_house_hold()
                 .click_cleaning_supplies()
                 .click_cleaning_wipes();
-
     }
 
     @Then("^Customer will be on cleaning_wipes Page$")
     public void customer_will_be_on_cleaning_wipes_page() {
         new Cleaning_wipesPage(driver)
                 .validate_page();
-
-
-
-
-
-
     }
 
     @When("^Navigate to floor_care page from categories$")
@@ -172,19 +155,14 @@ public class Steps {
                 .click_house_hold()
                 .click_cleaning_supplies()
                 .click_floor_care();
-
     }
 
     @Then("^Customer will be on floor_care Page$")
     public void customer_will_be_on_floor_care_page() throws InterruptedException {
-
        new Floor_Care(driver)
                .validate_page()
                .click_check_box();
-
     }
-
-
 
     @When("^user click sign_in from menu button$")
     public void user_click_sign_in_from_menu_button() throws InterruptedException {
@@ -195,27 +173,20 @@ public class Steps {
     }
 
     @When("user enters {string} and password {string}")
-    public void user_enters_and_password(String user, String password) throws InterruptedException {
+    public void user_enters_and_password(String user, String password) {
         new Login_page(driver)
                 .set_username(user)
                 .set_password(password);
-
-
     }
 
     @When("^click sign in$")
     public void click_sign_in() throws InterruptedException {
         new Login_page(driver)
         .click_sign_in() ;
-
     }
 
     @Then("^user should be on account page$")
     public void user_should_be_on_account_page() {
         new Login_page(driver).validate_account_page();
-
-
     }
-
-
-    }
+}

@@ -10,8 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Hooks {
-
     private static final Logger LOGGER = LogManager.getLogger(Hooks.class);
+
     static WebDriver driver;
 
     @Before

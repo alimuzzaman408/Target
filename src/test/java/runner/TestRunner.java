@@ -1,6 +1,5 @@
 package runner;
 
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -13,8 +12,7 @@ import org.junit.runner.RunWith;
   plugin = {"pretty","summary", "json:target/cucumber.json","html:target/CucumberReports/reports.html"},
   publish = true, monochrome = false, dryRun = false,
   tags = "@smokeTesting or @sanityTesting or @NegativeTesting or @Testing"
-
-
 )
+
 public class TestRunner {
 }

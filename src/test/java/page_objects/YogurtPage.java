@@ -1,7 +1,6 @@
 package page_objects;
 
 import command_providers.ActOn;
-import command_providers.AssertThat;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
@@ -9,13 +8,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class YogurtPage {
-private static final By yogurt_text=By.xpath("//*[@id='mainContainer']//h1");
-    private static final Logger LOGGER = LogManager.getLogger(Sanitizer_Page.class);
+    private static final By yogurt_text=By.xpath("//*[@id='mainContainer']//h1");
+
+    private static final Logger LOGGER = LogManager.getLogger(YogurtPage.class);
 
     public WebDriver driver;
 
     public YogurtPage(WebDriver driver){
-
         this.driver=driver;
     }
 
@@ -26,6 +25,4 @@ private static final By yogurt_text=By.xpath("//*[@id='mainContainer']//h1");
         LOGGER.info("Page is verified with correct text_value");
         return this;
     }
-
-
 }

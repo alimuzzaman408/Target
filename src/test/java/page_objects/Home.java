@@ -5,7 +5,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 public class Home {
     private static final By Categories = By.xpath("//span[normalize-space()='Categories']");
     private final By Grocery = By.xpath("//li[@class='NavigationListItem-ljyubl-0 chzHFE']/following::div[text()='Grocery']");
@@ -24,13 +23,13 @@ public class Home {
     private final By Cleaning_wipes_item = By.xpath("//div[normalize-space()='Cleaning Wipes']");
     private final By floor_care_item = By.xpath("//div[normalize-space()='Floor Care']");
 
-
     private static final Logger LOGGER = LogManager.getLogger(Home.class);
+
     WebDriver driver;
     public Home(WebDriver driver){
-
         this.driver=driver;
     }
+
     public Home click_Categories() throws InterruptedException {
         ActOn.element(driver,Categories).click();
         LOGGER.info("categories item clicked");
@@ -52,35 +51,36 @@ public class Home {
         return this;
     }
 
-    public Home clickMilk() throws InterruptedException {
+    public Home clickMilk(){
         ActOn.element(driver,Milk_item).click();
         LOGGER.info("Milk item clicked");
         return this;
     }
 
-    public Home clickCheese() throws InterruptedException {
+    public Home clickCheese(){
         ActOn.element(driver,cheese_item).click();
         LOGGER.info("Cheese item clicked");
         return this;
     }
 
-    public Home click_Yogurt() throws InterruptedException {
+    public Home click_Yogurt(){
         ActOn.element(driver,yogurt_item).click();
         LOGGER.info("Yogurt item clicked");
         return this;
     }
 
-    public Home click_coffee_creamer() throws InterruptedException {
+    public Home click_coffee_creamer(){
         ActOn.element(driver,coffee_creamer_item).click();
         LOGGER.info("Yogurt item clicked");
         return this;
     }
 
-    public Home click_cream_cheese() throws InterruptedException {
+    public Home click_cream_cheese(){
         ActOn.element(driver,cream_cheese_item).click();
         LOGGER.info("cream_cheese item clicked");
         return this;
     }
+
     public Home click_house_hold() throws InterruptedException {
         ActOn.element(driver,house_hold_item).click();
         LOGGER.info("household item clicked");
@@ -95,19 +95,19 @@ public class Home {
         return this;
     }
 
-    public Home click_soap() throws InterruptedException {
+    public Home click_soap(){
         ActOn.element(driver,hand_soap_item).click();
         LOGGER.info("Soap_item clicked");
         return this;
     }
 
-    public Home click_sanitizer() throws InterruptedException {
+    public Home click_sanitizer(){
         ActOn.element(driver,sanitizer_item).click();
         LOGGER.info("Sanitizer_item clicked");
         return this;
     }
 
-    public Home click_toilet_paper() throws InterruptedException {
+    public Home click_toilet_paper(){
         ActOn.element(driver,toilet_paper_item).click();
         LOGGER.info("toilet_paper_item clicked");
         return this;
@@ -118,25 +118,17 @@ public class Home {
         LOGGER.info("Cleaning_supplies_item clicked");
         Thread.sleep(500);
         return this;
-
-
     }
 
-    public Home click_cleaning_wipes() throws InterruptedException {
+    public Home click_cleaning_wipes(){
         ActOn.element(driver,Cleaning_wipes_item).click();
         LOGGER.info("Cleaning_wipes_item clicked");
         return this;
-
-
     }
-    public Home click_floor_care() throws InterruptedException {
+
+    public Home click_floor_care(){
         ActOn.element(driver,  floor_care_item).click();
         LOGGER.info("  floor_care_item clicked");
         return this;
-
-
     }
-
-
-
-    }
+}
