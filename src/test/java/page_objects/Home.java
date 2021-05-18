@@ -142,7 +142,7 @@ public class Home {
     public Home click_floor_care() throws InterruptedException {
         ActOn.element(driver,  floor_care_item).click();
         LOGGER.info("  floor_care_item clicked");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         return this;
 
 
