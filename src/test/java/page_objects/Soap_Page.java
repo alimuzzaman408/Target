@@ -20,6 +20,7 @@ private static final By soap_text=By.xpath("//*[@id='mainContainer']//h1");
     }
 
     public Soap_Page verify_soap_Page(){
+        ActOn.wait(driver,soap_text).waitForElementToBeVisible();
         String value= ActOn.element(driver,soap_text).getTextValue();
         Assert.assertEquals("Hand Soap",value);
         LOGGER.info("Page is verified with correct text_value");

@@ -19,6 +19,7 @@ private static final By cheese_text=By.xpath("//*[@id='mainContainer']//h1");
     }
 
     public CheesePage verify_cheesePage(){
+        ActOn.wait(driver,cheese_text).waitForElementToBeVisible();
         String value= ActOn.element(driver,cheese_text).getTextValue();
         Assert.assertEquals("Cheese",value);
         LOGGER.info("Page is verified with correct text_value");

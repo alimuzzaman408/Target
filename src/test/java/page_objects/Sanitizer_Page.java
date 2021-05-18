@@ -20,6 +20,7 @@ private static final By sanitizer_text=By.xpath("//*[@id='mainContainer']//h1");
     }
 
     public Sanitizer_Page verify_sanitizer_Page(){
+        ActOn.wait(driver,sanitizer_text).waitForElementToBeVisible();
         String value= ActOn.element(driver,sanitizer_text).getTextValue();
         Assert.assertEquals("Hand Sanitizer",value);
         LOGGER.info("Page is verified with correct text_value");

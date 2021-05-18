@@ -1,7 +1,6 @@
 package page_objects;
 
 import command_providers.ActOn;
-import command_providers.AssertThat;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -56,35 +55,30 @@ public class Home {
     public Home clickMilk() throws InterruptedException {
         ActOn.element(driver,Milk_item).click();
         LOGGER.info("Milk item clicked");
-        Thread.sleep(2000);
         return this;
     }
 
     public Home clickCheese() throws InterruptedException {
         ActOn.element(driver,cheese_item).click();
         LOGGER.info("Cheese item clicked");
-        Thread.sleep(1000);
         return this;
     }
 
     public Home click_Yogurt() throws InterruptedException {
         ActOn.element(driver,yogurt_item).click();
         LOGGER.info("Yogurt item clicked");
-        Thread.sleep(2000);
         return this;
     }
 
     public Home click_coffee_creamer() throws InterruptedException {
         ActOn.element(driver,coffee_creamer_item).click();
         LOGGER.info("Yogurt item clicked");
-        Thread.sleep(2000);
         return this;
     }
 
     public Home click_cream_cheese() throws InterruptedException {
         ActOn.element(driver,cream_cheese_item).click();
         LOGGER.info("cream_cheese item clicked");
-        Thread.sleep(2000);
         return this;
     }
     public Home click_house_hold() throws InterruptedException {
@@ -104,21 +98,18 @@ public class Home {
     public Home click_soap() throws InterruptedException {
         ActOn.element(driver,hand_soap_item).click();
         LOGGER.info("Soap_item clicked");
-        Thread.sleep(2000);
         return this;
     }
 
     public Home click_sanitizer() throws InterruptedException {
         ActOn.element(driver,sanitizer_item).click();
         LOGGER.info("Sanitizer_item clicked");
-        Thread.sleep(2000);
         return this;
     }
 
     public Home click_toilet_paper() throws InterruptedException {
         ActOn.element(driver,toilet_paper_item).click();
         LOGGER.info("toilet_paper_item clicked");
-        Thread.sleep(2000);
         return this;
     }
 
@@ -134,7 +125,6 @@ public class Home {
     public Home click_cleaning_wipes() throws InterruptedException {
         ActOn.element(driver,Cleaning_wipes_item).click();
         LOGGER.info("Cleaning_wipes_item clicked");
-        Thread.sleep(2000);
         return this;
 
 
@@ -142,7 +132,6 @@ public class Home {
     public Home click_floor_care() throws InterruptedException {
         ActOn.element(driver,  floor_care_item).click();
         LOGGER.info("  floor_care_item clicked");
-        Thread.sleep(3000);
         return this;
 
 

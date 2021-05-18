@@ -20,6 +20,7 @@ private static final By yogurt_text=By.xpath("//*[@id='mainContainer']//h1");
     }
 
     public YogurtPage verify_yogurtPage(){
+        ActOn.wait(driver,yogurt_text).waitForElementToBeVisible();
         String value= ActOn.element(driver,yogurt_text).getTextValue();
         Assert.assertEquals("Yogurt",value);
         LOGGER.info("Page is verified with correct text_value");

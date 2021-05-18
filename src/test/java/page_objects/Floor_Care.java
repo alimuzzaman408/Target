@@ -19,6 +19,7 @@ public class Floor_Care {
         this.driver=driver;
     }
     public Floor_Care validate_page(){
+        ActOn.wait(driver,floor_text).waitForElementToBeVisible();
         String value= ActOn.element(driver,floor_text).getTextValue();
         Assert.assertEquals("Floor Care",value);
         LOGGER.info("Page is verified with correct text_value");
@@ -26,8 +27,9 @@ public class Floor_Care {
     }
 
     public Floor_Care click_check_box() throws InterruptedException {
+        ActOn.wait(driver,check_box).waitForElementToBeVisible();
         ActOn.element(driver,check_box).click();
-        Thread.sleep(10000);
+        //Thread.sleep(10000);
         LOGGER.info("Check box clicked");
         return this;
     }

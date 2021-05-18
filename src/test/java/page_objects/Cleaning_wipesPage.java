@@ -20,6 +20,7 @@ private static final By wipes_text=By.xpath("//*[@id='mainContainer']//h1");
     }
 
     public Cleaning_wipesPage validate_page(){
+        ActOn.wait(driver,wipes_text).waitForElementToBeVisible();
         String value= ActOn.element(driver,wipes_text).getTextValue();
         Assert.assertEquals("Cleaning Wipes",value);
         LOGGER.info("Page is verified with correct text_value");

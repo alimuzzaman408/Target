@@ -19,7 +19,6 @@ public class Login_page {
 
     private static final Logger LOGGER = LogManager.getLogger(Login_page.class);
     WebDriver driver;
-    //div[@class='sc-kjoXOD fxsUxV']
     public Login_page(WebDriver driver) {
 
         this.driver = driver;
@@ -35,30 +34,31 @@ public class Login_page {
     }
 
     public Login_page set_username(String user1) throws InterruptedException {
+        ActOn.wait(driver,user).waitForElementToBeVisible();
         ActOn.element(driver, user).setValue(user1);
-        Thread.sleep(1000);
         LOGGER.info("username  is entered");
         return this;
 
     }
 
     public Login_page set_password(String password1) throws InterruptedException {
+        ActOn.wait(driver,pass).waitForElementToBeVisible();
         ActOn.element(driver, pass).setValue(password1);
-        Thread.sleep(1000);
         LOGGER.info("password  is entered");
         return this;
 
     }
 
     public Login_page click_sign_in() throws InterruptedException {
+        ActOn.wait(driver,click_log_in).waitForElementToBeVisible();
         ActOn.element(driver, click_log_in).click();
-        Thread.sleep(1000);
         LOGGER.info("sign in button clicked");
         return this;
 
     }
 
     public void validate_account_page() {
+        ActOn.wait(driver,error_message1).waitForElementToBeVisible();
         String value1 = ActOn.element(driver, error_message1).getTextValue();
          //String value2 = ActOn.element(driver, error_message2).getTextValue();
         if (value1.equals("Please enter a valid password")) {

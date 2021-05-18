@@ -1,13 +1,13 @@
 Feature:Purchase product from online
 Background:
   Given Customer on the home page
-@Testing
+@TSmokeTesting
   Scenario: Customer able to select milk item from grocery categories
     When Navigate to milk page from categories
     Then Customer will be on Milk Page
 
 
-@sanityTesting
+  @sanityTesting
   Scenario: Customer able to select cheese item from grocery categories
     When Navigate to cheese page from categories
     Then Customer will be on cheese Page

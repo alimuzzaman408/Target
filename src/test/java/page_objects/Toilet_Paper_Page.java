@@ -20,6 +20,7 @@ private static final By toiletPaper_text=By.xpath("//*[@id='mainContainer']//h1"
     }
 
     public Toilet_Paper_Page verify_toilet_paper_Page(){
+        ActOn.wait(driver,toiletPaper_text).waitForElementToBeVisible();
         String value= ActOn.element(driver,toiletPaper_text).getTextValue();
         Assert.assertEquals("Toilet Paper",value);
         LOGGER.info("Page is verified with correct text_value");

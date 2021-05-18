@@ -19,7 +19,7 @@ private static final By milk_text=By.xpath("//*[@id='mainContainer']//h1");
     }
 
     public MilkPage verify_milkPage(){
-
+        ActOn.wait(driver,milk_text).waitForElementToBeVisible();
        String value=ActOn.element(driver,milk_text).getTextValue();
        Assert.assertEquals("Milk",value);
        LOGGER.info("Page is verified with correct text_value");
