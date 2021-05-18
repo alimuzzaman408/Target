@@ -70,21 +70,21 @@ public class Home {
     public Home click_Yogurt() throws InterruptedException {
         ActOn.element(driver,yogurt_item).click();
         LOGGER.info("Yogurt item clicked");
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         return this;
     }
 
     public Home click_coffee_creamer() throws InterruptedException {
         ActOn.element(driver,coffee_creamer_item).click();
         LOGGER.info("Yogurt item clicked");
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         return this;
     }
 
     public Home click_cream_cheese() throws InterruptedException {
         ActOn.element(driver,cream_cheese_item).click();
         LOGGER.info("cream_cheese item clicked");
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         return this;
     }
     public Home click_house_hold() throws InterruptedException {
